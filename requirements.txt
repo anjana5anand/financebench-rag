@@ -1,0 +1,12 @@
+# Tested on Google Colab (Python 3, November 2026)
+numpy
+pandas
+scipy
+matplotlib
+tqdm
+pymupdf
+rank_bm25
+torch
+sentence-transformers
+faiss-cpu
+groq

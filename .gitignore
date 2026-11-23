@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets: never commit API keys
+.env
+*.key
+
+# Large or regenerable data (cached on Google Drive by the notebooks)
+financebench_rag/
+pdfs/
+*.pdf
+*.npy
+llm_cache.jsonl
+contexts.json
+
+# OS
+.DS_Store

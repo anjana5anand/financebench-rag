@@ -1,0 +1,17 @@
+notebook,chunk_words,method,recall_at_1,recall_at_3,recall_at_5,recall_at_10,mrr
+01/02,256,bm25,0.147,0.247,0.267,0.307,0.198
+01/02,256,dense (baseline),0.240,0.447,0.560,0.667,0.375
+02,256,hybrid (bm25 + dense rrf),0.160,0.260,0.333,0.427,0.231
+02,256,hybrid -> reranker,0.200,0.393,0.507,0.667,0.332
+02,128,dense,0.300,0.460,0.513,0.640,0.399
+02,128,hybrid -> reranker,0.173,0.353,0.460,0.587,0.291
+02,384,dense,0.240,0.440,0.527,0.660,0.366
+02,384,hybrid -> reranker,0.207,0.360,0.480,0.640,0.324
+02,256 + page header,bm25,0.167,0.240,0.260,0.313,0.212
+02,256 + page header,dense,0.293,0.480,0.533,0.653,0.399
+02,256 + page header,hybrid (bm25 + dense rrf),0.173,0.253,0.360,0.493,0.252
+02,256 + page header,hybrid -> reranker,0.240,0.387,0.493,0.627,0.349
+03a,256,dense -> reranker,0.200,0.400,0.487,0.667,0.331
+03a,256,rewrites only,0.313,0.553,0.660,0.800,0.462
+03a,256,question + rewrites (extension),0.347,0.600,0.713,0.853,0.508
+03a,256,question + rewrites -> reranker,0.260,0.453,0.567,0.767,0.394
